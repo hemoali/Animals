@@ -1,0 +1,100 @@
+/* put your css code here */
+
+.navbar-brand-title {
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.navbar-brand>img {
+    margin-top: -5px;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-default {
+    margin: 0px auto;
+}
+
+.img-responsive {
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+}
+
+.img-responsive:foucs {
+    outline: none;
+}
+
+.animal-thumbnail img {
+    width: 280px;
+    height: 180px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    opacity: 0.85;
+    transition: 0.5s opacity;
+}
+
+.animal-thumbnail img:foucs {
+    outline: none;
+}
+
+.animal-thumbnail img:hover {
+    opacity: 1;
+    outline: none;
+}
+
+.animal-thumbnail-title {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: helvetica, Arial;
+    font-weight: 100;
+}
+
+.animal-desc {
+    font-family: helvetica, Arial;
+    font-weight: 100;
+    float: left;
+}
+
+.carousel {
+    float: right;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.right {
+    margin-right: 15px;
+}
+
+.left {
+    margin-left: 15px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    position: relative;
+    background: rgb(248, 248, 248);
+    min-height: 100%;
+}
+
+#container {
+    padding-bottom: 60px;
+}
+
+footer {
+    background: #edebeb;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
